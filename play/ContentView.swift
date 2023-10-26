@@ -9,13 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        VStack(alignment: .center, spacing: 0.0) {
+            Spacer()
+                .frame(minHeight: 10,maxHeight:10 )
+                .fixedSize()
+            
+            LoginHeader()
+           
+            ZStack{
+            
+                Text("BigsSpoon")
+                    .font(.custom("Archio-Bold",size: 24))
+                    .fontWeight(.medium)
+                    .foregroundColor(Color.red).frame(height: 20)
+                
+            }.frame(height: 316).background(.orange)
+            
+            Spacer()
+        }.frame(maxWidth: .infinity).background(.gray)
+        
+        
     }
 }
 

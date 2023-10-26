@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCBAA19B2AEA836B00459D97 /* LoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */; };
+		FCBAA1A52AEA879F00459D97 /* Archivo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */; };
+		FCBAA1A62AEA879F00459D97 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */; };
+		FCBAA1A72AEA879F00459D97 /* Archivo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA1A02AEA879F00459D97 /* Archivo-Regular.ttf */; };
+		FCBAA1A82AEA87A000459D97 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA1A12AEA879F00459D97 /* Inter-SemiBold.ttf */; };
+		FCBAA1A92AEA87A000459D97 /* Archivo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA1A22AEA879F00459D97 /* Archivo-SemiBold.ttf */; };
+		FCBAA1AA2AEA87A000459D97 /* Archivo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA1A32AEA879F00459D97 /* Archivo-Medium.ttf */; };
+		FCBAA1AB2AEA87A000459D97 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA1A42AEA879F00459D97 /* Inter-Medium.ttf */; };
+		FCBAA1AF2AEA8CDD00459D97 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBAA1AE2AEA8CDD00459D97 /* Fonts.swift */; };
 		FCE36E012AEA2D5F0001D980 /* playApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE36E002AEA2D5F0001D980 /* playApp.swift */; };
 		FCE36E032AEA2D5F0001D980 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE36E022AEA2D5F0001D980 /* ContentView.swift */; };
 		FCE36E052AEA2D600001D980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE36E042AEA2D600001D980 /* Assets.xcassets */; };
@@ -34,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeader.swift; sourceTree = "<group>"; };
+		FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Bold.ttf"; sourceTree = "<group>"; };
+		FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		FCBAA1A02AEA879F00459D97 /* Archivo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Regular.ttf"; sourceTree = "<group>"; };
+		FCBAA1A12AEA879F00459D97 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		FCBAA1A22AEA879F00459D97 /* Archivo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-SemiBold.ttf"; sourceTree = "<group>"; };
+		FCBAA1A32AEA879F00459D97 /* Archivo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Medium.ttf"; sourceTree = "<group>"; };
+		FCBAA1A42AEA879F00459D97 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		FCBAA1AC2AEA888700459D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FCBAA1AE2AEA8CDD00459D97 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		FCE36DFD2AEA2D5F0001D980 /* play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = play.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE36E002AEA2D5F0001D980 /* playApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playApp.swift; sourceTree = "<group>"; };
 		FCE36E022AEA2D5F0001D980 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +91,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FCBAA19D2AEA876400459D97 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */,
+				FCBAA1A32AEA879F00459D97 /* Archivo-Medium.ttf */,
+				FCBAA1A02AEA879F00459D97 /* Archivo-Regular.ttf */,
+				FCBAA1A22AEA879F00459D97 /* Archivo-SemiBold.ttf */,
+				FCBAA1A42AEA879F00459D97 /* Inter-Medium.ttf */,
+				FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */,
+				FCBAA1A12AEA879F00459D97 /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FCBAA1AD2AEA8CBF00459D97 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FCBAA1AE2AEA8CDD00459D97 /* Fonts.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		FCE36DF42AEA2D5F0001D980 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +136,12 @@
 		FCE36DFF2AEA2D5F0001D980 /* play */ = {
 			isa = PBXGroup;
 			children = (
+				FCBAA1AD2AEA8CBF00459D97 /* Config */,
+				FCBAA1AC2AEA888700459D97 /* Info.plist */,
+				FCBAA19D2AEA876400459D97 /* Fonts */,
 				FCE36E002AEA2D5F0001D980 /* playApp.swift */,
 				FCE36E022AEA2D5F0001D980 /* ContentView.swift */,
+				FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */,
 				FCE36E042AEA2D600001D980 /* Assets.xcassets */,
 				FCE36E062AEA2D600001D980 /* play.entitlements */,
 				FCE36E072AEA2D600001D980 /* Preview Content */,
@@ -233,8 +278,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBAA1AA2AEA87A000459D97 /* Archivo-Medium.ttf in Resources */,
+				FCBAA1A82AEA87A000459D97 /* Inter-SemiBold.ttf in Resources */,
+				FCBAA1A52AEA879F00459D97 /* Archivo-Bold.ttf in Resources */,
 				FCE36E092AEA2D600001D980 /* Preview Assets.xcassets in Resources */,
+				FCBAA1A62AEA879F00459D97 /* Inter-Regular.ttf in Resources */,
+				FCBAA1A72AEA879F00459D97 /* Archivo-Regular.ttf in Resources */,
+				FCBAA1A92AEA87A000459D97 /* Archivo-SemiBold.ttf in Resources */,
 				FCE36E052AEA2D600001D980 /* Assets.xcassets in Resources */,
+				FCBAA1AB2AEA87A000459D97 /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +311,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBAA1AF2AEA8CDD00459D97 /* Fonts.swift in Sources */,
 				FCE36E032AEA2D5F0001D980 /* ContentView.swift in Sources */,
+				FCBAA19B2AEA836B00459D97 /* LoginHeader.swift in Sources */,
 				FCE36E012AEA2D5F0001D980 /* playApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +473,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = play/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +512,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = play/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
