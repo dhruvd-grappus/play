@@ -10,13 +10,18 @@ import SwiftUI
 struct LoginHeader: View {
     var body: some View {
         ZStack{
+            Image("LoginBg").resizable()
             VStack{
                 
                 Spacer()
-                Text("Almost ther")
+                Image("BigspoonLogo").resizable().frame(
+                    width: 146,
+                    height: 146)
+                Spacer().frame(maxHeight: 40)
+                Text("Almost there")
                     .font(.custom(Fonts.archivoBold,size: 24))
                     .foregroundColor(Color.white)
-                
+               
                 Text("Signup Or Login To Continue")
                     .font(.custom(Fonts.archivoMedium,size: 16))
                     .fontWeight(.thin)

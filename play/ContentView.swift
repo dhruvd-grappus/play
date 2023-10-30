@@ -9,24 +9,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .center, spacing: 0.0) {
-            Spacer()
-                .frame(minHeight: 10,maxHeight:10 )
-                .fixedSize()
-            
-            LoginHeader()
-           
-            ZStack{
-            
-                Text("BigsSpoon")
-                    .font(.custom("Archio-Bold",size: 24))
-                    .fontWeight(.medium)
-                    .foregroundColor(Color.red).frame(height: 20)
+       
+        ZStack{
+            Color.black.edgesIgnoringSafeArea(.all)
+            VStack(alignment: .leading) {
                 
-            }.frame(height: 316).background(.orange)
-            
-            Spacer()
-        }.frame(maxWidth: .infinity).background(.gray)
+                
+                LoginHeader()
+                
+                VStack{
+                    
+                    CurvedTextField(
+                    hint: {
+                        HStack {
+                            Text("+91")
+                            Color.black.opacity(0.5).frame(width: 1,height: 20)
+                        }
+                    }
+                    )
+                    
+                }.padding(.horizontal,15).padding(.vertical,34)
+               
+               
+                Spacer()
+                
+            }.frame(maxWidth: .infinity)
+            .background(.white)
+        }
+       
+           
         
         
     }
