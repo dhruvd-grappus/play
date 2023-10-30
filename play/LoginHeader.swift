@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct LoginHeader: View {
+    
+    
     var body: some View {
         ZStack{
             Image("LoginBg").resizable()
@@ -15,8 +17,8 @@ struct LoginHeader: View {
                 
                 Spacer()
                 Image("BigspoonLogo").resizable().frame(
-                    width: 146,
-                    height: 146)
+                    width: 146.responsiveWidth(),
+                    height: 146.responsiveHeight())
                 Spacer().frame(maxHeight: 40)
                 Text("Almost there")
                     .font(.custom(Fonts.archivoBold,size: 24))
@@ -32,7 +34,7 @@ struct LoginHeader: View {
             
         }.frame(
             maxWidth: .infinity
-        ).frame(height: 356).background(.black  ).cornerRadius(21)
+        ).frame(height: 316.responsiveHeight()).background(.black  ).cornerRadius(21)
            
 
     }

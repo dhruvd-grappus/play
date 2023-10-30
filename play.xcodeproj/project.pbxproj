@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FC2C9D982AEBA7D400611155 /* CurvedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C9D972AEBA7D400611155 /* CurvedTextField.swift */; };
+		FC2C9D9B2AEFCF9900611155 /* CurvedButtonWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C9D9A2AEFCF9900611155 /* CurvedButtonWithIcon.swift */; };
+		FC2C9D9E2AEFD68A00611155 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C9D9D2AEFD68A00611155 /* Utils.swift */; };
 		FCBAA19B2AEA836B00459D97 /* LoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */; };
 		FCBAA1A52AEA879F00459D97 /* Archivo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */; };
 		FCBAA1A62AEA879F00459D97 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */; };
@@ -18,7 +20,7 @@
 		FCBAA1AB2AEA87A000459D97 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA1A42AEA879F00459D97 /* Inter-Medium.ttf */; };
 		FCBAA1AF2AEA8CDD00459D97 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBAA1AE2AEA8CDD00459D97 /* Fonts.swift */; };
 		FCE36E012AEA2D5F0001D980 /* playApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE36E002AEA2D5F0001D980 /* playApp.swift */; };
-		FCE36E032AEA2D5F0001D980 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE36E022AEA2D5F0001D980 /* ContentView.swift */; };
+		FCE36E032AEA2D5F0001D980 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE36E022AEA2D5F0001D980 /* LoginPage.swift */; };
 		FCE36E052AEA2D600001D980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE36E042AEA2D600001D980 /* Assets.xcassets */; };
 		FCE36E092AEA2D600001D980 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE36E082AEA2D600001D980 /* Preview Assets.xcassets */; };
 		FCE36E132AEA2D610001D980 /* playTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE36E122AEA2D610001D980 /* playTests.swift */; };
@@ -45,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		FC2C9D972AEBA7D400611155 /* CurvedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTextField.swift; sourceTree = "<group>"; };
+		FC2C9D9A2AEFCF9900611155 /* CurvedButtonWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedButtonWithIcon.swift; sourceTree = "<group>"; };
+		FC2C9D9D2AEFD68A00611155 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeader.swift; sourceTree = "<group>"; };
 		FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Bold.ttf"; sourceTree = "<group>"; };
 		FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
@@ -57,7 +61,7 @@
 		FCBAA1AE2AEA8CDD00459D97 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		FCE36DFD2AEA2D5F0001D980 /* play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = play.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE36E002AEA2D5F0001D980 /* playApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playApp.swift; sourceTree = "<group>"; };
-		FCE36E022AEA2D5F0001D980 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCE36E022AEA2D5F0001D980 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		FCE36E042AEA2D600001D980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCE36E062AEA2D600001D980 /* play.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = play.entitlements; sourceTree = "<group>"; };
 		FCE36E082AEA2D600001D980 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -97,8 +101,17 @@
 			isa = PBXGroup;
 			children = (
 				FC2C9D972AEBA7D400611155 /* CurvedTextField.swift */,
+				FC2C9D9A2AEFCF9900611155 /* CurvedButtonWithIcon.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		FC2C9D9C2AEFD67B00611155 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FC2C9D9D2AEFD68A00611155 /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		FCBAA19D2AEA876400459D97 /* Fonts */ = {
@@ -146,12 +159,13 @@
 		FCE36DFF2AEA2D5F0001D980 /* play */ = {
 			isa = PBXGroup;
 			children = (
+				FC2C9D9C2AEFD67B00611155 /* Utils */,
+				FCBAA19D2AEA876400459D97 /* Fonts */,
 				FC2C9D962AEBA7AD00611155 /* Common */,
 				FCBAA1AD2AEA8CBF00459D97 /* Config */,
 				FCBAA1AC2AEA888700459D97 /* Info.plist */,
-				FCBAA19D2AEA876400459D97 /* Fonts */,
 				FCE36E002AEA2D5F0001D980 /* playApp.swift */,
-				FCE36E022AEA2D5F0001D980 /* ContentView.swift */,
+				FCE36E022AEA2D5F0001D980 /* LoginPage.swift */,
 				FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */,
 				FCE36E042AEA2D600001D980 /* Assets.xcassets */,
 				FCE36E062AEA2D600001D980 /* play.entitlements */,
@@ -323,8 +337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCBAA1AF2AEA8CDD00459D97 /* Fonts.swift in Sources */,
-				FCE36E032AEA2D5F0001D980 /* ContentView.swift in Sources */,
+				FCE36E032AEA2D5F0001D980 /* LoginPage.swift in Sources */,
 				FC2C9D982AEBA7D400611155 /* CurvedTextField.swift in Sources */,
+				FC2C9D9E2AEFD68A00611155 /* Utils.swift in Sources */,
+				FC2C9D9B2AEFCF9900611155 /* CurvedButtonWithIcon.swift in Sources */,
 				FCBAA19B2AEA836B00459D97 /* LoginHeader.swift in Sources */,
 				FCE36E012AEA2D5F0001D980 /* playApp.swift in Sources */,
 			);
