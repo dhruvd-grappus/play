@@ -10,6 +10,17 @@
 		FC2C9D982AEBA7D400611155 /* CurvedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C9D972AEBA7D400611155 /* CurvedTextField.swift */; };
 		FC2C9D9B2AEFCF9900611155 /* CurvedButtonWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C9D9A2AEFCF9900611155 /* CurvedButtonWithIcon.swift */; };
 		FC2C9D9E2AEFD68A00611155 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C9D9D2AEFD68A00611155 /* Utils.swift */; };
+		FC31BD132AF11ACA00BA55CF /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD122AF11ACA00BA55CF /* Router.swift */; };
+		FC31BD152AF11B6300BA55CF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD142AF11B6300BA55CF /* Home.swift */; };
+		FC31BD182AF11E6D00BA55CF /* VerifyPhonePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD172AF11E6D00BA55CF /* VerifyPhonePage.swift */; };
+		FC31BD202AF122F000BA55CF /* VerifyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD1F2AF122F000BA55CF /* VerifyResponse.swift */; };
+		FC31BD232AF124B500BA55CF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD222AF124B500BA55CF /* NetworkManager.swift */; };
+		FC31BD252AF1275400BA55CF /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD242AF1275400BA55CF /* Enums.swift */; };
+		FC31BD2A2AF12B4900BA55CF /* VerifyPhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD292AF12B4900BA55CF /* VerifyPhoneViewModel.swift */; };
+		FC31BD2C2AF12C2500BA55CF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD2B2AF12C2500BA55CF /* ViewModel.swift */; };
+		FC31BD2E2AF12D3700BA55CF /* PhoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD2D2AF12D3700BA55CF /* PhoneService.swift */; };
+		FC31BD302AF26DF400BA55CF /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */; };
+		FC31BD322AF26FE800BA55CF /* GenerateOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD312AF26FE800BA55CF /* GenerateOTP.swift */; };
 		FCBAA19B2AEA836B00459D97 /* LoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */; };
 		FCBAA1A52AEA879F00459D97 /* Archivo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */; };
 		FCBAA1A62AEA879F00459D97 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */; };
@@ -49,6 +60,17 @@
 		FC2C9D972AEBA7D400611155 /* CurvedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTextField.swift; sourceTree = "<group>"; };
 		FC2C9D9A2AEFCF9900611155 /* CurvedButtonWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedButtonWithIcon.swift; sourceTree = "<group>"; };
 		FC2C9D9D2AEFD68A00611155 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FC31BD122AF11ACA00BA55CF /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FC31BD142AF11B6300BA55CF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FC31BD172AF11E6D00BA55CF /* VerifyPhonePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhonePage.swift; sourceTree = "<group>"; };
+		FC31BD1F2AF122F000BA55CF /* VerifyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyResponse.swift; sourceTree = "<group>"; };
+		FC31BD222AF124B500BA55CF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FC31BD242AF1275400BA55CF /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		FC31BD292AF12B4900BA55CF /* VerifyPhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneViewModel.swift; sourceTree = "<group>"; };
+		FC31BD2B2AF12C2500BA55CF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FC31BD2D2AF12D3700BA55CF /* PhoneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneService.swift; sourceTree = "<group>"; };
+		FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		FC31BD312AF26FE800BA55CF /* GenerateOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateOTP.swift; sourceTree = "<group>"; };
 		FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeader.swift; sourceTree = "<group>"; };
 		FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Bold.ttf"; sourceTree = "<group>"; };
 		FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
@@ -100,8 +122,7 @@
 		FC2C9D962AEBA7AD00611155 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				FC2C9D972AEBA7D400611155 /* CurvedTextField.swift */,
-				FC2C9D9A2AEFCF9900611155 /* CurvedButtonWithIcon.swift */,
+				FC31BD1B2AF1228D00BA55CF /* Views */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -111,6 +132,9 @@
 			children = (
 				FCBAA1AE2AEA8CDD00459D97 /* Fonts.swift */,
 				FC2C9D9D2AEFD68A00611155 /* Utils.swift */,
+				FC31BD122AF11ACA00BA55CF /* Router.swift */,
+				FC31BD242AF1275400BA55CF /* Enums.swift */,
+				FC31BD2B2AF12C2500BA55CF /* ViewModel.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -118,6 +142,8 @@
 		FC31BD102AF1182700BA55CF /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				FC2C9D962AEBA7AD00611155 /* Common */,
+				FC31BD162AF11E5600BA55CF /* VerifyPhone */,
 				FC31BD112AF1183200BA55CF /* Login */,
 			);
 			path = Features;
@@ -126,10 +152,72 @@
 		FC31BD112AF1183200BA55CF /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				FC31BD192AF1206600BA55CF /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FC31BD162AF11E5600BA55CF /* VerifyPhone */ = {
+			isa = PBXGroup;
+			children = (
+				FC31BD262AF12A1500BA55CF /* ViewModel */,
+				FC31BD1C2AF122B700BA55CF /* Model */,
+				FC31BD1A2AF1206D00BA55CF /* View */,
+			);
+			path = VerifyPhone;
+			sourceTree = "<group>";
+		};
+		FC31BD192AF1206600BA55CF /* View */ = {
+			isa = PBXGroup;
+			children = (
 				FCE36E022AEA2D5F0001D980 /* LoginPage.swift */,
 				FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */,
 			);
-			path = Login;
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC31BD1A2AF1206D00BA55CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC31BD172AF11E6D00BA55CF /* VerifyPhonePage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC31BD1B2AF1228D00BA55CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC2C9D972AEBA7D400611155 /* CurvedTextField.swift */,
+				FC2C9D9A2AEFCF9900611155 /* CurvedButtonWithIcon.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC31BD1C2AF122B700BA55CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC31BD1F2AF122F000BA55CF /* VerifyResponse.swift */,
+				FC31BD312AF26FE800BA55CF /* GenerateOTP.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC31BD212AF124A400BA55CF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FC31BD222AF124B500BA55CF /* NetworkManager.swift */,
+				FC31BD2D2AF12D3700BA55CF /* PhoneService.swift */,
+				FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FC31BD262AF12A1500BA55CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC31BD292AF12B4900BA55CF /* VerifyPhoneViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FCBAA19D2AEA876400459D97 /* Fonts */ = {
@@ -169,12 +257,13 @@
 		FCE36DFF2AEA2D5F0001D980 /* play */ = {
 			isa = PBXGroup;
 			children = (
+				FC31BD212AF124A400BA55CF /* Services */,
 				FC31BD102AF1182700BA55CF /* Features */,
 				FC2C9D9C2AEFD67B00611155 /* Utils */,
 				FCBAA19D2AEA876400459D97 /* Fonts */,
-				FC2C9D962AEBA7AD00611155 /* Common */,
 				FCBAA1AC2AEA888700459D97 /* Info.plist */,
 				FCE36E002AEA2D5F0001D980 /* playApp.swift */,
+				FC31BD142AF11B6300BA55CF /* Home.swift */,
 				FCE36E042AEA2D600001D980 /* Assets.xcassets */,
 				FCE36E062AEA2D600001D980 /* play.entitlements */,
 				FCE36E072AEA2D600001D980 /* Preview Content */,
@@ -344,9 +433,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC31BD2A2AF12B4900BA55CF /* VerifyPhoneViewModel.swift in Sources */,
+				FC31BD232AF124B500BA55CF /* NetworkManager.swift in Sources */,
+				FC31BD302AF26DF400BA55CF /* Endpoints.swift in Sources */,
+				FC31BD182AF11E6D00BA55CF /* VerifyPhonePage.swift in Sources */,
+				FC31BD132AF11ACA00BA55CF /* Router.swift in Sources */,
 				FCBAA1AF2AEA8CDD00459D97 /* Fonts.swift in Sources */,
 				FCE36E032AEA2D5F0001D980 /* LoginPage.swift in Sources */,
+				FC31BD202AF122F000BA55CF /* VerifyResponse.swift in Sources */,
+				FC31BD322AF26FE800BA55CF /* GenerateOTP.swift in Sources */,
 				FC2C9D982AEBA7D400611155 /* CurvedTextField.swift in Sources */,
+				FC31BD2E2AF12D3700BA55CF /* PhoneService.swift in Sources */,
+				FC31BD252AF1275400BA55CF /* Enums.swift in Sources */,
+				FC31BD152AF11B6300BA55CF /* Home.swift in Sources */,
+				FC31BD2C2AF12C2500BA55CF /* ViewModel.swift in Sources */,
 				FC2C9D9E2AEFD68A00611155 /* Utils.swift in Sources */,
 				FC2C9D9B2AEFCF9900611155 /* CurvedButtonWithIcon.swift in Sources */,
 				FCBAA19B2AEA836B00459D97 /* LoginHeader.swift in Sources */,

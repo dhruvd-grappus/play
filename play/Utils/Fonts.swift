@@ -7,11 +7,7 @@
 
 import Foundation
 
-
-class Fonts{
-    
-    
-    
-    public   static var archivoBold:String="Archivo-Bold";
-    public   static var archivoMedium:String="Archivo-Medium";
+class Fonts {
+    public static var archivoBold: String = "Archivo-Bold"
+    public static var archivoMedium: String = "Archivo-Medium"
 }
