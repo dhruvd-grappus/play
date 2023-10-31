@@ -109,9 +109,27 @@
 		FC2C9D9C2AEFD67B00611155 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FCBAA1AE2AEA8CDD00459D97 /* Fonts.swift */,
 				FC2C9D9D2AEFD68A00611155 /* Utils.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		FC31BD102AF1182700BA55CF /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FC31BD112AF1183200BA55CF /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FC31BD112AF1183200BA55CF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FCE36E022AEA2D5F0001D980 /* LoginPage.swift */,
+				FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		FCBAA19D2AEA876400459D97 /* Fonts */ = {
@@ -126,14 +144,6 @@
 				FCBAA1A12AEA879F00459D97 /* Inter-SemiBold.ttf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		FCBAA1AD2AEA8CBF00459D97 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				FCBAA1AE2AEA8CDD00459D97 /* Fonts.swift */,
-			);
-			path = Config;
 			sourceTree = "<group>";
 		};
 		FCE36DF42AEA2D5F0001D980 = {
@@ -159,14 +169,12 @@
 		FCE36DFF2AEA2D5F0001D980 /* play */ = {
 			isa = PBXGroup;
 			children = (
+				FC31BD102AF1182700BA55CF /* Features */,
 				FC2C9D9C2AEFD67B00611155 /* Utils */,
 				FCBAA19D2AEA876400459D97 /* Fonts */,
 				FC2C9D962AEBA7AD00611155 /* Common */,
-				FCBAA1AD2AEA8CBF00459D97 /* Config */,
 				FCBAA1AC2AEA888700459D97 /* Info.plist */,
 				FCE36E002AEA2D5F0001D980 /* playApp.swift */,
-				FCE36E022AEA2D5F0001D980 /* LoginPage.swift */,
-				FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */,
 				FCE36E042AEA2D600001D980 /* Assets.xcassets */,
 				FCE36E062AEA2D600001D980 /* play.entitlements */,
 				FCE36E072AEA2D600001D980 /* Preview Content */,
