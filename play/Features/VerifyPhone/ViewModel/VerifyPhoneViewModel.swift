@@ -25,10 +25,18 @@ class VerifyPhoneViewModel: ViewModel {
         let result = await phoneService.generateOTP(params: GenerateOTPParams(phone: phone))
         print(status)
         switch result {
-        case let .success(response):
-            print(response)
+        case .success:
+            DispatchQueue.main.async {
+                self.status = .success
+            }
         case let .failure(error):
-            print(error)
+            DispatchQueue.main.async {
+                self.status = .error(APIError.commonErrorDescription)
+
+                if case let APIError.serverError(_, response) = error {
+                    self.status = .error(response.error)
+                }
+            }
         }
     }
 }

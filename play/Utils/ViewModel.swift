@@ -11,7 +11,7 @@ enum Status {
     case initial
     case loading
     case success
-    case error(message: String)
+    case error(String?)
 }
 
 class ViewModel: ObservableObject {

@@ -36,29 +36,23 @@ struct NetworkManager {
         print("---------")
     }
 
-    private func executeRequest<T: Codable>(request: inout URLRequest) async throws -> Result<T, Error> {
+    private func executeRequest(request: inout URLRequest) async throws -> Result<Data, APIError> {
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         logRequest(request: request)
         let (data, response) = try await URLSession.shared.data(for: request)
 
         guard let response = response as? HTTPURLResponse else {
-            throw APIError.resultError()
+            return .failure(APIError.resultError())
         }
         logResponse(response: response, data: data)
+
         if response.statusCode != 200 {
-            throw APIError.serverError(code: response.statusCode)
+            return try .failure(APIError.serverError(code: response.statusCode, response: JSONDecoder().decode(ErrorResponse.self, from: data)))
         }
-
-        do {
-            let data = try JSONDecoder().decode(T.self, from: data)
-
-            return .success(data)
-        } catch {
-            throw APIError.jsonDecodingError(error: error, data: data)
-        }
+        return .success(data)
     }
 
-    func post<P: Codable, T: Codable>(path: String, body: P, for _: T.Type) async throws -> Result<T, Error> {
+    func post<P: Codable>(path: String, body: P) async throws -> Result<Data, APIError> {
         let apiUrl = URL(string: EndPoints.baseUrl + path)!
 
         var request = URLRequest(url: apiUrl)
@@ -74,7 +68,7 @@ struct NetworkManager {
         return try await executeRequest(request: &request)
     }
 
-    func get<T: Codable>(path: String, for _: T.Type) async throws -> Result<T, Error> {
+    func get(path: String) async throws -> Result<Data, APIError> {
         let apiUrl = URL(string: path)!
 
         var request = URLRequest(url: apiUrl)

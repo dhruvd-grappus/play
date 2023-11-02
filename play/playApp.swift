@@ -26,6 +26,9 @@ struct playApp: App {
                         switch destination {
                         case .login:
                             LoginPage().navigationBarBackButtonHidden(true)
+
+                        case .profile:
+                            ProfilePage()
                         }
                     }
             }

@@ -22,6 +22,8 @@
 		FC31BD302AF26DF400BA55CF /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */; };
 		FC31BD322AF26FE800BA55CF /* GenerateOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD312AF26FE800BA55CF /* GenerateOTP.swift */; };
 		FC8E898A2AF3AFE200682AC1 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E89892AF3AFE200682AC1 /* APIError.swift */; };
+		FC8E898E2AF3C58100682AC1 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E898D2AF3C58100682AC1 /* ProfilePage.swift */; };
+		FC8E89902AF3C8D800682AC1 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E898F2AF3C8D800682AC1 /* ErrorResponse.swift */; };
 		FCBAA19B2AEA836B00459D97 /* LoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */; };
 		FCBAA1A52AEA879F00459D97 /* Archivo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */; };
 		FCBAA1A62AEA879F00459D97 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */; };
@@ -73,6 +75,8 @@
 		FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		FC31BD312AF26FE800BA55CF /* GenerateOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateOTP.swift; sourceTree = "<group>"; };
 		FC8E89892AF3AFE200682AC1 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		FC8E898D2AF3C58100682AC1 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		FC8E898F2AF3C8D800682AC1 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
 		FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeader.swift; sourceTree = "<group>"; };
 		FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Bold.ttf"; sourceTree = "<group>"; };
 		FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 		FC31BD102AF1182700BA55CF /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				FC8E898B2AF3C55D00682AC1 /* Profile */,
 				FC2C9D962AEBA7AD00611155 /* Common */,
 				FC31BD162AF11E5600BA55CF /* VerifyPhone */,
 				FC31BD112AF1183200BA55CF /* Login */,
@@ -227,8 +232,25 @@
 				FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */,
 				FC31BD222AF124B500BA55CF /* NetworkManager.swift */,
 				FC8E89892AF3AFE200682AC1 /* APIError.swift */,
+				FC8E898F2AF3C8D800682AC1 /* ErrorResponse.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		FC8E898B2AF3C55D00682AC1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FC8E898C2AF3C57400682AC1 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FC8E898C2AF3C57400682AC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC8E898D2AF3C58100682AC1 /* ProfilePage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FCBAA19D2AEA876400459D97 /* Fonts */ = {
@@ -446,9 +468,11 @@
 			files = (
 				FC31BD2A2AF12B4900BA55CF /* VerifyPhoneViewModel.swift in Sources */,
 				FC31BD232AF124B500BA55CF /* NetworkManager.swift in Sources */,
+				FC8E898E2AF3C58100682AC1 /* ProfilePage.swift in Sources */,
 				FC31BD302AF26DF400BA55CF /* Endpoints.swift in Sources */,
 				FC31BD182AF11E6D00BA55CF /* VerifyPhonePage.swift in Sources */,
 				FC31BD132AF11ACA00BA55CF /* Router.swift in Sources */,
+				FC8E89902AF3C8D800682AC1 /* ErrorResponse.swift in Sources */,
 				FCBAA1AF2AEA8CDD00459D97 /* Fonts.swift in Sources */,
 				FCE36E032AEA2D5F0001D980 /* LoginPage.swift in Sources */,
 				FC31BD202AF122F000BA55CF /* VerifyResponse.swift in Sources */,
