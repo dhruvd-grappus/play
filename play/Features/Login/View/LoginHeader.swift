@@ -8,35 +8,28 @@
 import SwiftUI
 
 struct LoginHeader: View {
-    
-    
     var body: some View {
-        ZStack{
+        ZStack {
             Image("LoginBg").resizable()
-            VStack{
-                
+            VStack {
                 Spacer()
                 Image("BigspoonLogo").resizable().frame(
                     width: 146.responsiveWidth(),
                     height: 146.responsiveHeight())
                 Spacer().frame(maxHeight: 40)
                 Text("Almost there")
-                    .font(.custom(Fonts.archivoBold,size: 24))
+                    .font(.custom(Fonts.archivoBold, size: 24))
                     .foregroundColor(Color.white)
-               
+
                 Text("Signup Or Login To Continue")
-                    .font(.custom(Fonts.archivoMedium,size: 16))
+                    .font(.custom(Fonts.archivoMedium, size: 16))
                     .fontWeight(.thin)
-                    .foregroundColor(Color.white).padding(.top,1).padding(.bottom,36)
-                
+                    .foregroundColor(Color.white).padding(.top, 1).padding(.bottom, 36)
             }
-           
-            
+
         }.frame(
             maxWidth: .infinity
-        ).frame(height: 316.responsiveHeight()).background(.black  ).cornerRadius(21)
-           
-
+        ).frame(height: 316.responsiveHeight()).background(.black).cornerRadius(21)
     }
 }
 
