@@ -16,18 +16,11 @@ class PhoneService {
 
     func generateOTP(params: GenerateOTPParams) async -> Result<GenerateOTPResponse, Error> {
         do {
-            return try await networkManager.post(baseUrl: EndPoints.baseUrl + EndPoints.sendOTP, parameters: params, for: GenerateOTPResponse.self)
+            return try await networkManager.post(path: EndPoints.sendOTP, body: params, for: GenerateOTPResponse.self)
         }
 
         catch {
-            return .failure(ServerError.parseError)
+            return .failure(error)
         }
     }
-//    func verifyPhone(params: VerifyOTPParams) -> Result<UserData, Error>{
-//
-//        return try networkManager.post(baseUrl: EndPoints.baseUrl, parameters: <#T##Decodable & Encodable#>)
-//
-//
-//
-//    }
 }

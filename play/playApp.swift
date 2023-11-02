@@ -11,12 +11,10 @@ import SwiftUI
 struct playApp: App {
     @ObservedObject var router = Router()
 
-    let networkManager = NetworkManager()
-
     let verifyPhoneViewModel: VerifyPhoneViewModel
 
     init() {
-        verifyPhoneViewModel = VerifyPhoneViewModel(phoneService: PhoneService(networkManager: networkManager))
+        verifyPhoneViewModel = VerifyPhoneViewModel(phoneService: PhoneService(networkManager: NetworkManager.shared))
         router.navigate(to: .login)
     }
 

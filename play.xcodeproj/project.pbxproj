@@ -21,6 +21,7 @@
 		FC31BD2E2AF12D3700BA55CF /* PhoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD2D2AF12D3700BA55CF /* PhoneService.swift */; };
 		FC31BD302AF26DF400BA55CF /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */; };
 		FC31BD322AF26FE800BA55CF /* GenerateOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD312AF26FE800BA55CF /* GenerateOTP.swift */; };
+		FC8E898A2AF3AFE200682AC1 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E89892AF3AFE200682AC1 /* APIError.swift */; };
 		FCBAA19B2AEA836B00459D97 /* LoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */; };
 		FCBAA1A52AEA879F00459D97 /* Archivo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */; };
 		FCBAA1A62AEA879F00459D97 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */; };
@@ -71,6 +72,7 @@
 		FC31BD2D2AF12D3700BA55CF /* PhoneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneService.swift; sourceTree = "<group>"; };
 		FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		FC31BD312AF26FE800BA55CF /* GenerateOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateOTP.swift; sourceTree = "<group>"; };
+		FC8E89892AF3AFE200682AC1 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeader.swift; sourceTree = "<group>"; };
 		FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Bold.ttf"; sourceTree = "<group>"; };
 		FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
@@ -205,9 +207,8 @@
 		FC31BD212AF124A400BA55CF /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				FC31BD222AF124B500BA55CF /* NetworkManager.swift */,
+				FC8E89882AF3AFC300682AC1 /* NetworkManager */,
 				FC31BD2D2AF12D3700BA55CF /* PhoneService.swift */,
-				FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -218,6 +219,16 @@
 				FC31BD292AF12B4900BA55CF /* VerifyPhoneViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC8E89882AF3AFC300682AC1 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */,
+				FC31BD222AF124B500BA55CF /* NetworkManager.swift */,
+				FC8E89892AF3AFE200682AC1 /* APIError.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 		FCBAA19D2AEA876400459D97 /* Fonts */ = {
@@ -441,6 +452,7 @@
 				FCBAA1AF2AEA8CDD00459D97 /* Fonts.swift in Sources */,
 				FCE36E032AEA2D5F0001D980 /* LoginPage.swift in Sources */,
 				FC31BD202AF122F000BA55CF /* VerifyResponse.swift in Sources */,
+				FC8E898A2AF3AFE200682AC1 /* APIError.swift in Sources */,
 				FC31BD322AF26FE800BA55CF /* GenerateOTP.swift in Sources */,
 				FC2C9D982AEBA7D400611155 /* CurvedTextField.swift in Sources */,
 				FC31BD2E2AF12D3700BA55CF /* PhoneService.swift in Sources */,

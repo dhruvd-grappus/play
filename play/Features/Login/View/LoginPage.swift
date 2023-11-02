@@ -9,10 +9,9 @@ import SwiftUI
 
 struct LoginPage: View {
     @EnvironmentObject var verifyVM: VerifyPhoneViewModel
-
+    @State var phone: String = ""
     func onChanged(withString text: String) {
-        print("Button tapped with text: \(text)")
-        // You can perform any actions you want here.
+        phone = text
     }
 
     var body: some View {
@@ -42,7 +41,7 @@ struct LoginPage: View {
                             icon: "LoginBg", text: "Verify Phone(POST)"
                         ) {
                             Task {
-                                await verifyVM.verifyPhone(phone: "9717545007")
+                                await verifyVM.verifyPhone(phone: phone)
                             }
                         }
                         CurvedButtonWithIcon(

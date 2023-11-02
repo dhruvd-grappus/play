@@ -19,10 +19,11 @@ class VerifyPhoneViewModel: ViewModel {
     }
 
     func verifyPhone(phone: String) async {
-        status = .loading
-
+        DispatchQueue.main.async {
+            self.status = .loading
+        }
         let result = await phoneService.generateOTP(params: GenerateOTPParams(phone: phone))
-
+        print(status)
         switch result {
         case let .success(response):
             print(response)
