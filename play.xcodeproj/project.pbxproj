@@ -33,6 +33,7 @@
 		FCBAA1AA2AEA87A000459D97 /* Archivo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA1A32AEA879F00459D97 /* Archivo-Medium.ttf */; };
 		FCBAA1AB2AEA87A000459D97 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA1A42AEA879F00459D97 /* Inter-Medium.ttf */; };
 		FCBAA1AF2AEA8CDD00459D97 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBAA1AE2AEA8CDD00459D97 /* Fonts.swift */; };
+		FCE219932AF4C4D2001B41DD /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE219922AF4C4D2001B41DD /* AppColors.swift */; };
 		FCE36E012AEA2D5F0001D980 /* playApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE36E002AEA2D5F0001D980 /* playApp.swift */; };
 		FCE36E032AEA2D5F0001D980 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE36E022AEA2D5F0001D980 /* LoginPage.swift */; };
 		FCE36E052AEA2D600001D980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE36E042AEA2D600001D980 /* Assets.xcassets */; };
@@ -87,6 +88,7 @@
 		FCBAA1A42AEA879F00459D97 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 		FCBAA1AC2AEA888700459D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FCBAA1AE2AEA8CDD00459D97 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		FCE219922AF4C4D2001B41DD /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		FCE36DFD2AEA2D5F0001D980 /* play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = play.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE36E002AEA2D5F0001D980 /* playApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playApp.swift; sourceTree = "<group>"; };
 		FCE36E022AEA2D5F0001D980 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				FC31BD122AF11ACA00BA55CF /* Router.swift */,
 				FC31BD242AF1275400BA55CF /* Enums.swift */,
 				FC31BD2B2AF12C2500BA55CF /* ViewModel.swift */,
+				FCE219922AF4C4D2001B41DD /* AppColors.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 				FC2C9D982AEBA7D400611155 /* CurvedTextField.swift in Sources */,
 				FC31BD2E2AF12D3700BA55CF /* PhoneService.swift in Sources */,
 				FC31BD252AF1275400BA55CF /* Enums.swift in Sources */,
+				FCE219932AF4C4D2001B41DD /* AppColors.swift in Sources */,
 				FC31BD152AF11B6300BA55CF /* Home.swift in Sources */,
 				FC31BD2C2AF12C2500BA55CF /* ViewModel.swift in Sources */,
 				FC2C9D9E2AEFD68A00611155 /* Utils.swift in Sources */,
