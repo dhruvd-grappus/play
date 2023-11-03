@@ -5,7 +5,7 @@ name: Swift
 
 on:
   push:
-    branches: [ "*" ]
+    
     paths:
         - '.github/workflows/swiftlint.yml'
         - '.swiftlint.yml'
