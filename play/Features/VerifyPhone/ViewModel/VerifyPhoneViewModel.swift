@@ -22,7 +22,7 @@ class VerifyPhoneViewModel: ViewModel {
 
     func verifyPhone(phone: String) async {
         DispatchQueue.main.async {
-            self.status = .initial
+            self.status = .loading
         }
         let result = await phoneService.generateOTP(params: GenerateOTPParams(phone: phone))
         switch result {
