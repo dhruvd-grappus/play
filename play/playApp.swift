@@ -28,7 +28,7 @@ struct playApp: App {
                             LoginPage().navigationBarBackButtonHidden(true)
 
                         case .profile:
-                            ProfilePage()
+                            ProfilePage().navigationBarBackButtonHidden(true)
                         }
                     }
             }

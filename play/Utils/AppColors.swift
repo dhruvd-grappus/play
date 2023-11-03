@@ -7,9 +7,6 @@
 
 import Foundation
 
-
-enum AppColors: String{
-    
-    
+enum AppColors: String {
     case black = "Black"
 }

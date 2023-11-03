@@ -13,8 +13,8 @@ class VerifyPhoneViewModel: ViewModel {
     // @Published var userData: UserData?
 
     let phoneService: PhoneService
-    
-    @Published var id:String = ""
+
+    @Published var id: String = ""
 
     init(phoneService: PhoneService) {
         self.phoneService = phoneService
@@ -22,12 +22,11 @@ class VerifyPhoneViewModel: ViewModel {
 
     func verifyPhone(phone: String) async {
         DispatchQueue.main.async {
-            self.status = .loading
+            self.status = .initial
         }
         let result = await phoneService.generateOTP(params: GenerateOTPParams(phone: phone))
-        print(status)
         switch result {
-        case .success(let response):
+        case let .success(response):
             DispatchQueue.main.async {
                 self.status = .success
                 self.id = response.data.requestID
