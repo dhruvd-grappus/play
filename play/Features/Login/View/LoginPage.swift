@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct LoginPage: View {
+    @EnvironmentObject var router: Router
     @EnvironmentObject var verifyVM: VerifyPhoneViewModel
     @State var phone: String = ""
     func onChanged(withString text: String) {
@@ -40,6 +41,7 @@ struct LoginPage: View {
                         CurvedButtonWithIcon(
                             icon: "LoginBg", text: "Verify Phone(POST)"
                         ) {
+                            router.navigate(to: .profile)
                             Task {
                                 await verifyVM.verifyPhone(phone: phone)
                             }

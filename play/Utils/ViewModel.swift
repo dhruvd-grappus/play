@@ -7,13 +7,13 @@
 
 import Foundation
 
-enum Status {
+enum StateStatus: Equatable {
     case initial
     case loading
     case success
-    case error(message: String)
+    case error(String?)
 }
 
 class ViewModel: ObservableObject {
-    @Published var status: Status = .initial
+    @Published var status: StateStatus = .initial
 }

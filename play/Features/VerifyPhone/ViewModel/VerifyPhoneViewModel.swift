@@ -14,6 +14,8 @@ class VerifyPhoneViewModel: ViewModel {
 
     let phoneService: PhoneService
 
+    @Published var id: String = ""
+
     init(phoneService: PhoneService) {
         self.phoneService = phoneService
     }
@@ -23,12 +25,20 @@ class VerifyPhoneViewModel: ViewModel {
             self.status = .loading
         }
         let result = await phoneService.generateOTP(params: GenerateOTPParams(phone: phone))
-        print(status)
         switch result {
         case let .success(response):
-            print(response)
+            DispatchQueue.main.async {
+                self.status = .success
+                self.id = response.data.requestID
+            }
         case let .failure(error):
-            print(error)
+            DispatchQueue.main.async {
+                self.status = .error(APIError.commonErrorDescription)
+
+                if case let APIError.serverError(_, response) = error {
+                    self.status = .error(response.error)
+                }
+            }
         }
     }
 }

@@ -14,13 +14,23 @@ class PhoneService {
         self.networkManager = networkManager
     }
 
-    func generateOTP(params: GenerateOTPParams) async -> Result<GenerateOTPResponse, Error> {
+    func generateOTP(params: GenerateOTPParams) async -> Result<GenerateOTPResponse, APIError> {
         do {
-            return try await networkManager.post(path: EndPoints.sendOTP, body: params, for: GenerateOTPResponse.self)
+            let response = try await networkManager.post(path: EndPoints.sendOTP, body: params)
+
+            switch response {
+            case let .success(success):
+                let data = success
+
+                return try .success(JSONDecoder().decode(GenerateOTPResponse.self, from: data))
+
+            case let .failure(failure):
+                return .failure(failure)
+            }
         }
 
         catch {
-            return .failure(error)
+            return .failure(APIError.resultError())
         }
     }
 }

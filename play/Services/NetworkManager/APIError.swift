@@ -19,5 +19,5 @@ enum APIError: Error {
     case resultError(message: String = "")
     case jsonEncodeError(error: Error, data: Codable)
 
-    case serverError(code: Int)
+    case serverError(code: Int, response: ErrorResponse)
 }
