@@ -18,6 +18,7 @@ class VerifyPhoneViewModel: ViewModel {
 
     init(phoneService: PhoneService) {
         self.phoneService = phoneService
+        super.init()
     }
 
     func verifyPhone(phone: String) async {
