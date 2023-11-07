@@ -9,20 +9,21 @@ import SwiftUI
 
 struct FeedView: View {
     @StateObject var vm: FeedViewModel
-    
+
+    @EnvironmentObject var router: Router
+
     var body: some View {
         ZStack {
             Color.black
                 .ignoresSafeArea()
             ScrollView(.vertical, showsIndicators: false) {
-                
                 VStack {
                     HStack {
                         Image("logo")
                             .padding(.leading)
-                        
+
                         Spacer()
-                        
+
                         TopButton(imageName: "HandHeart") {
                             print("HandHeart Tapped")
                         }
@@ -30,20 +31,22 @@ struct FeedView: View {
                             print("Bell Tapped")
                         }
                         TopButton(imageName: "User") {
+                            router.navigate(to: .profile)
                             print("User Tapped")
                         }
                     }
-                    
+
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 10) {
                             ForEach(vm.categoryDataSournce,
-                                    id: \.title) { category in
+                                    id: \.title)
+                            { category in
                                 CategoryView(category: category,
                                              isSelected: category.isSelected,
                                              onTap: { category in
-                                    vm.updateCategory(category: category)
-                                })
-                                .padding(.vertical, 4.0)
+                                                 vm.updateCategory(category: category)
+                                             })
+                                             .padding(.vertical, 4.0)
                             }
                         }
                     }
@@ -64,10 +67,9 @@ struct FeedView: View {
                                 .bold()
                         })
                     }
-                    
-                    ForEach(vm.feedData, id: \.self) { text in
+
+                    ForEach(vm.feedData, id: \.self) { _ in
                         FeedViewRow()
-                            
                     }
 
                     Spacer()
@@ -80,7 +82,7 @@ struct FeedView: View {
 extension FeedView {
     struct TopButton: View {
         var imageName: String
-        var onTap: (() -> Void)
+        var onTap: () -> Void
         var body: some View {
             Button {
                 onTap()
@@ -98,12 +100,12 @@ extension FeedView {
     struct CategoryView: View {
         var category: CategoryDataSournce
         var isSelected: Bool
-        var onTap: ((CategoryDataSournce) -> Void)
+        var onTap: (CategoryDataSournce) -> Void
         let selectedColor = Color(uiColor: UIColor(red: 1.00,
                                                    green: 0.73,
                                                    blue: 0.96,
                                                    alpha: 1.00))
-        
+
         var body: some View {
             Button(action: {
                 onTap(category)
@@ -122,12 +124,9 @@ extension FeedView {
                     .cornerRadius(20)
                     .rotationEffect(.degrees(isSelected ? -4 : 0))
             })
-            
         }
     }
 }
-
-
 
 #Preview {
     FeedView(vm: FeedViewModel())

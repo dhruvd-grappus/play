@@ -41,7 +41,7 @@ struct LoginPage: View {
                         CurvedButtonWithIcon(
                             icon: "LoginBg", text: "Verify Phone(POST)"
                         ) {
-                            router.navigate(to: .profile)
+                            router.navigate(to: .feed)
                             Task {
                                 await verifyVM.verifyPhone(phone: phone)
                             }

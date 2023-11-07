@@ -11,6 +11,14 @@ import SwiftUI
 
 enum AssetImages: String {
     case cancel = "Cancel"
+    case cancelBlack = "CancelBlack"
+
+    case circleContainer = "CircleContainer"
+    case threeDots
+    case threeDotsBlack = "threeDots-Black"
+    case handHeart = "HandHeart"
+    case bell = "Bell"
+    case user = "User"
 }
 
 extension AssetImages {

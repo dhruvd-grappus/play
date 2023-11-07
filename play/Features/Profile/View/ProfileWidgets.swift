@@ -10,7 +10,8 @@ import SwiftUI
 struct ProfileWidget: View {
     var text: String? = nil
     let icon: AssetImages
-
+    var delay: Double = 0
+    @State private var animate = false
     func height() -> CGFloat {
         return text == nil ? 77.0 : 144.0
     }
@@ -39,6 +40,12 @@ struct ProfileWidget: View {
         }
         .frame(height: height())
         .cornerRadius(5)
+        .opacity(animate ? 1 : 0)
+        .onAppear {
+            withAnimation(Animation.easeOut.delay(delay)) {
+                animate = true
+            }
+        }
     }
 }
 
@@ -46,15 +53,15 @@ struct ProfileWidgets: View {
     var body: some View {
         HStack(alignment: .top, spacing: 10) {
             VStack {
-                ProfileWidget(text: "App Settings", icon: AssetImages.cancel)
-                ProfileWidget(text: "Terms & Conditions", icon: AssetImages.cancel)
+                ProfileWidget(text: "App Settings", icon: AssetImages.cancel, delay: 0.1)
+                ProfileWidget(text: "Terms & Conditions", icon: AssetImages.cancel, delay: 0.3)
             }
             VStack(alignment: .leading) {
                 HStack {
-                    ProfileWidget(icon: AssetImages.cancel).frame(maxWidth: .infinity)
-                    ProfileWidget(icon: AssetImages.cancel).frame(maxWidth: .infinity)
+                    ProfileWidget(icon: AssetImages.cancel, delay: 0.5).frame(maxWidth: .infinity)
+                    ProfileWidget(icon: AssetImages.cancel, delay: 0.6).frame(maxWidth: .infinity)
                 }
-                ProfileWidget(text: "Terms & Conditions", icon: AssetImages.cancel)
+                ProfileWidget(text: "Terms & Conditions", icon: AssetImages.cancel, delay: 0.8)
             }
         }
     }
