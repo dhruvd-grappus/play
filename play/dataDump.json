@@ -1,0 +1,140 @@
+{
+    "data": {
+        "hasPrevious": false,
+        "hasNext": true,
+        "count": 15,
+        "totalPages": 2,
+        "content": [
+            {
+                "_id": "64ec792bcee712668875f595",
+                "title": "The Importance of Nurturing Meaningful Friendships",
+                "description": "In conclusion, friendships play a vital role in our lives, contributing to our emotional well-being, personal growth, and overall happiness. The support and companionship that friendships provide nurture our mental health and help us navigate through life's challenges. Friendships also offer opportunities for personal growth and self-discovery, as well as the chance to create lasting memories and share in life's joys. It is It is important to invest time and effort into building and nurturing friendships, as they are not only a source of joy but also a source of strength during difficult times.",
+                "contentKey": "3531c57b-0b5a-4bd5-ab69-61b29c75114e.md",
+                "contentType": "TEXT",
+                "category": "FRIENDSHIPS",
+                "readTime": "52 seconds",
+                "thumbnail": "8a051508-c50e-497c-8921-a0ec21eb70a4.jpeg",
+                "isPortrait": false,
+                "createdAt": "2023-08-28T10:38:35.946Z",
+                "updatedAt": "2023-09-12T11:58:03.071Z"
+            },
+            {
+                "_id": "64ec793fcee712668875f598",
+                "title": "Strategies to Reduce Exam Anxiety and Improve Performance",
+                "description": "Thesis statement: Exams play a significant role in assessing students' learning and overall academic progress, but they should not be the sole measure of a student's abilities.",
+                "contentKey": "d351d0fb-b79c-4de6-bacd-c486ab5f0a66.md",
+                "contentType": "TEXT",
+                "category": "EXAMS & SCHOOL",
+                "readTime": "20 seconds",
+                "thumbnail": "327f7b0f-2975-4ad5-91fb-cd52238779fc.jpeg",
+                "isPortrait": false,
+                "createdAt": "2023-08-28T10:38:55.561Z",
+                "updatedAt": "2023-09-08T09:09:35.668Z"
+            },
+            {
+                "_id": "64ec7959cee712668875f59b",
+                "title": "health",
+                "description": "health",
+                "contentKey": "0bce3731-4a19-4dab-84f2-35e91bcde41b.md",
+                "contentType": "TEXT",
+                "category": "HEALTH",
+                "readTime": "60 seconds",
+                "thumbnail": "bb5e4962-d2ec-485a-bab2-b1859507ff6f.jpeg",
+                "isPortrait": false,
+                "createdAt": "2023-08-28T10:39:21.072Z",
+                "updatedAt": "2023-09-13T06:59:33.901Z"
+            },
+            {
+                "_id": "64ec79bacee712668875f5a8",
+                "title": "Sleep",
+                "description": "Sleep",
+                "contentKey": "9d623b55-1681-448c-ade9-2c1254ab570c.md",
+                "contentType": "TEXT",
+                "category": "SLEEP",
+                "readTime": "52 minutes",
+                "thumbnail": "6344130e-4ab0-444f-87a2-b7f46a65216a.jpeg",
+                "isPortrait": false,
+                "createdAt": "2023-08-28T10:40:58.982Z",
+                "updatedAt": "2023-09-14T11:08:09.368Z"
+            },
+            {
+                "_id": "64ec7a10cee712668875f5ab",
+                "title": "Stress",
+                "description": "Stress",
+                "contentKey": "d5ded145-191f-40d4-88a4-6b489b389f17.md",
+                "contentType": "TEXT",
+                "category": "STRESS",
+                "readTime": "32 seconds",
+                "thumbnail": "f417ddb8-e0bf-466b-a1a8-cb6718b00c55.jpeg",
+                "isPortrait": false,
+                "createdAt": "2023-08-28T10:42:24.203Z",
+                "updatedAt": "2023-09-14T11:07:59.529Z"
+            },
+            {
+                "_id": "64ec7a26cee712668875f5ae",
+                "title": "Self-Doubt",
+                "description": "Self-Doubt",
+                "contentKey": "695376c6-c301-43e6-91f8-3f0ee7e3505a.md",
+                "contentType": "TEXT",
+                "category": "SELF-DOUBT",
+                "readTime": "35 seconds",
+                "thumbnail": "36b6f0b7-f550-4121-83a5-ebfdda17efb4.jpeg",
+                "isPortrait": false,
+                "createdAt": "2023-08-28T10:42:46.497Z",
+                "updatedAt": "2023-09-08T09:12:44.992Z"
+            },
+            {
+                "_id": "64ec7b0acee712668875f5c1",
+                "title": "Bullying",
+                "description": "Bullying",
+                "contentKey": "6fbc5424-62d0-49a5-a3b4-aad3610940aa.md",
+                "contentType": "TEXT",
+                "category": "BULLYING",
+                "readTime": "20 seconds",
+                "thumbnail": "3c756d0c-690c-4802-89ff-7068f040e704.jpeg",
+                "isPortrait": false,
+                "createdAt": "2023-08-28T10:46:34.297Z",
+                "updatedAt": "2023-09-08T09:12:56.424Z"
+            },
+            {
+                "_id": "64ec7b22cee712668875f5c4",
+                "title": "Future",
+                "description": "Future",
+                "contentKey": "181afa7b-2e76-466f-9cdb-a7234ce65029.md",
+                "contentType": "TEXT",
+                "category": "FUTURE",
+                "readTime": "60 minutes",
+                "thumbnail": "72b48247-294c-47d9-876c-d771dce313dc.jpeg",
+                "isPortrait": false,
+                "createdAt": "2023-08-28T10:46:58.360Z",
+                "updatedAt": "2023-09-08T09:13:07.638Z"
+            },
+            {
+                "_id": "64ec7b36cee712668875f5c7",
+                "title": "Technology",
+                "description": "Technology",
+                "contentKey": "068da03c-23a0-458d-a6d4-f964897bc0e0.md",
+                "contentType": "TEXT",
+                "category": "TECHNOLOGY",
+                "readTime": "30 seconds",
+                "thumbnail": "854fa8d0-6468-49ab-a68b-bd842c9424a4.jpeg",
+                "isPortrait": false,
+                "createdAt": "2023-08-28T10:47:18.767Z",
+                "updatedAt": "2023-09-08T09:13:17.170Z"
+            },
+            {
+                "_id": "64ec7b7bcee712668875f5ca",
+                "title": "This is Title ",
+                "description": "This is Description",
+                "contentKey": "1b1b00e1-d61c-47f9-9204-fbe6e1adfee9.md",
+                "contentType": "TEXT",
+                "category": "TECHNOLOGY",
+                "thumbnail": "46d46907-4d9d-4579-a652-d4df14b5d487.jpeg",
+                "isPortrait": false,
+                "createdAt": "2023-08-28T10:48:27.666Z",
+                "updatedAt": "2023-09-13T05:40:43.701Z",
+                "readTime": "25 seconds"
+            }
+        ]
+    }
+}

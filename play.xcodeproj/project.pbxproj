@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE45EA0E2AFA4192001E8B94 /* FeedViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE45EA0D2AFA4192001E8B94 /* FeedViewRow.swift */; };
+		DE4CB9B32AFA154B0000C005 /* dataDump.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4CB9B22AFA154B0000C005 /* dataDump.json */; };
+		DE4CB9B72AFA158F0000C005 /* FeedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CB9B62AFA158F0000C005 /* FeedDataModel.swift */; };
+		DE4CB9BB2AFA15CF0000C005 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CB9BA2AFA15CF0000C005 /* FeedView.swift */; };
+		DE4CB9BD2AFA22DE0000C005 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4CB9BC2AFA22DE0000C005 /* FeedViewModel.swift */; };
+		DE7AA0332AFA281B00156BCF /* Brule-Bold-DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE7AA0322AFA281B00156BCF /* Brule-Bold-DEMO.otf */; };
+		DE82E7CA2AF8D922009D61DB /* LearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82E7C92AF8D922009D61DB /* LearningView.swift */; };
+		DE82E7CC2AF8DE83009D61DB /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82E7CB2AF8DE83009D61DB /* CircleImageView.swift */; };
+		DE82E7CE2AF8DFE9009D61DB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82E7CD2AF8DFE9009D61DB /* MapView.swift */; };
 		FC2C9D982AEBA7D400611155 /* CurvedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C9D972AEBA7D400611155 /* CurvedTextField.swift */; };
 		FC2C9D9B2AEFCF9900611155 /* CurvedButtonWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C9D9A2AEFCF9900611155 /* CurvedButtonWithIcon.swift */; };
 		FC2C9D9E2AEFD68A00611155 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C9D9D2AEFD68A00611155 /* Utils.swift */; };
@@ -64,6 +73,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE45EA0D2AFA4192001E8B94 /* FeedViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewRow.swift; sourceTree = "<group>"; };
+		DE4CB9B22AFA154B0000C005 /* dataDump.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dataDump.json; sourceTree = "<group>"; };
+		DE4CB9B62AFA158F0000C005 /* FeedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataModel.swift; sourceTree = "<group>"; };
+		DE4CB9BA2AFA15CF0000C005 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		DE4CB9BC2AFA22DE0000C005 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		DE7AA0322AFA281B00156BCF /* Brule-Bold-DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brule-Bold-DEMO.otf"; sourceTree = "<group>"; };
+		DE82E7C92AF8D922009D61DB /* LearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningView.swift; sourceTree = "<group>"; };
+		DE82E7CB2AF8DE83009D61DB /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		DE82E7CD2AF8DFE9009D61DB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		FC2C9D972AEBA7D400611155 /* CurvedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTextField.swift; sourceTree = "<group>"; };
 		FC2C9D9A2AEFCF9900611155 /* CurvedButtonWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedButtonWithIcon.swift; sourceTree = "<group>"; };
 		FC2C9D9D2AEFD68A00611155 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -133,6 +151,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE4CB9B42AFA155C0000C005 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				DE4CB9B92AFA15B50000C005 /* ViewModel */,
+				DE4CB9B82AFA15AC0000C005 /* Views */,
+				DE4CB9B52AFA15680000C005 /* FeedDataModel */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		DE4CB9B52AFA15680000C005 /* FeedDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE4CB9B62AFA158F0000C005 /* FeedDataModel.swift */,
+			);
+			path = FeedDataModel;
+			sourceTree = "<group>";
+		};
+		DE4CB9B82AFA15AC0000C005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE4CB9BA2AFA15CF0000C005 /* FeedView.swift */,
+				DE45EA0D2AFA4192001E8B94 /* FeedViewRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE4CB9B92AFA15B50000C005 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE4CB9BC2AFA22DE0000C005 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE82E7C82AF8D90F009D61DB /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				DE82E7C92AF8D922009D61DB /* LearningView.swift */,
+				DE82E7CB2AF8DE83009D61DB /* CircleImageView.swift */,
+				DE82E7CD2AF8DFE9009D61DB /* MapView.swift */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
 		FC2C9D962AEBA7AD00611155 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +221,8 @@
 		FC31BD102AF1182700BA55CF /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				DE4CB9B42AFA155C0000C005 /* Feed */,
+				DE82E7C82AF8D90F009D61DB /* Learning */,
 				FC8E898B2AF3C55D00682AC1 /* Profile */,
 				FC2C9D962AEBA7AD00611155 /* Common */,
 				FC31BD162AF11E5600BA55CF /* VerifyPhone */,
@@ -275,6 +340,7 @@
 				FCBAA1A42AEA879F00459D97 /* Inter-Medium.ttf */,
 				FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */,
 				FCBAA1A12AEA879F00459D97 /* Inter-SemiBold.ttf */,
+				DE7AA0322AFA281B00156BCF /* Brule-Bold-DEMO.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -309,6 +375,7 @@
 				FCBAA1AC2AEA888700459D97 /* Info.plist */,
 				FCE36E002AEA2D5F0001D980 /* playApp.swift */,
 				FC31BD142AF11B6300BA55CF /* Home.swift */,
+				DE4CB9B22AFA154B0000C005 /* dataDump.json */,
 				FCE36E042AEA2D600001D980 /* Assets.xcassets */,
 				FCE36E062AEA2D600001D980 /* play.entitlements */,
 				FCE36E072AEA2D600001D980 /* Preview Content */,
@@ -448,10 +515,12 @@
 				FCBAA1AA2AEA87A000459D97 /* Archivo-Medium.ttf in Resources */,
 				FCBAA1A82AEA87A000459D97 /* Inter-SemiBold.ttf in Resources */,
 				FCBAA1A52AEA879F00459D97 /* Archivo-Bold.ttf in Resources */,
+				DE4CB9B32AFA154B0000C005 /* dataDump.json in Resources */,
 				FCE36E092AEA2D600001D980 /* Preview Assets.xcassets in Resources */,
 				FCBAA1A62AEA879F00459D97 /* Inter-Regular.ttf in Resources */,
 				FCBAA1A72AEA879F00459D97 /* Archivo-Regular.ttf in Resources */,
 				FCBAA1A92AEA87A000459D97 /* Archivo-SemiBold.ttf in Resources */,
+				DE7AA0332AFA281B00156BCF /* Brule-Bold-DEMO.otf in Resources */,
 				FCE36E052AEA2D600001D980 /* Assets.xcassets in Resources */,
 				FCBAA1AB2AEA87A000459D97 /* Inter-Medium.ttf in Resources */,
 			);
@@ -485,8 +554,11 @@
 				FC31BD182AF11E6D00BA55CF /* VerifyPhonePage.swift in Sources */,
 				FC31BD132AF11ACA00BA55CF /* Router.swift in Sources */,
 				FC8E89902AF3C8D800682AC1 /* ErrorResponse.swift in Sources */,
+				DE4CB9BD2AFA22DE0000C005 /* FeedViewModel.swift in Sources */,
+				DE4CB9B72AFA158F0000C005 /* FeedDataModel.swift in Sources */,
 				FCBAA1AF2AEA8CDD00459D97 /* Fonts.swift in Sources */,
 				FCE36E032AEA2D5F0001D980 /* LoginPage.swift in Sources */,
+				DE4CB9BB2AFA15CF0000C005 /* FeedView.swift in Sources */,
 				FC31BD202AF122F000BA55CF /* VerifyResponse.swift in Sources */,
 				FCA7EDE82AF4D82D00268698 /* AssetImages.swift in Sources */,
 				FC8E898A2AF3AFE200682AC1 /* APIError.swift in Sources */,
@@ -494,9 +566,13 @@
 				FC2C9D982AEBA7D400611155 /* CurvedTextField.swift in Sources */,
 				FC31BD2E2AF12D3700BA55CF /* PhoneService.swift in Sources */,
 				FC31BD252AF1275400BA55CF /* Enums.swift in Sources */,
+				DE45EA0E2AFA4192001E8B94 /* FeedViewRow.swift in Sources */,
+				DE82E7CA2AF8D922009D61DB /* LearningView.swift in Sources */,
 				FCA7EDE62AF4D56B00268698 /* IconButton.swift in Sources */,
 				FCE219932AF4C4D2001B41DD /* AppColors.swift in Sources */,
+				DE82E7CC2AF8DE83009D61DB /* CircleImageView.swift in Sources */,
 				FC31BD152AF11B6300BA55CF /* Home.swift in Sources */,
+				DE82E7CE2AF8DFE9009D61DB /* MapView.swift in Sources */,
 				FC31BD2C2AF12C2500BA55CF /* ViewModel.swift in Sources */,
 				FC2C9D9E2AEFD68A00611155 /* Utils.swift in Sources */,
 				FCA7EDEA2AF50C4E00268698 /* ProfileWidgets.swift in Sources */,
@@ -672,7 +748,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -711,7 +787,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
