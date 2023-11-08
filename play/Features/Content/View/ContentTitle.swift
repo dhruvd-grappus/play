@@ -15,6 +15,18 @@ struct ContentTitle: View {
             VStack(alignment: .leading) {
                 Spacer()
                 VStack(alignment: .leading) {
+                    ZStack{
+                        AssetImages.circleContainer.image()
+                        Text("DEPRESSION")
+                          .font(
+                            Font.custom("Inter", size: 17)
+                              .weight(.medium)
+                          )
+                          .foregroundColor(.black)
+                        
+                    }
+                    .padding(.bottom,10)
+                   
                     Text("These are the 10 ways to rejection proof yourself!")
                         .font(
                             Font.custom("Inter-SemiBold", size: 28)
