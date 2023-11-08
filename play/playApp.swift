@@ -29,6 +29,11 @@ struct playApp: App {
 
                         case .profile:
                             ProfilePage().navigationBarBackButtonHidden(true)
+
+                        case .feed:
+                            FeedView(vm: FeedViewModel()).navigationBarBackButtonHidden(true)
+                        case .detail:
+                            ContentDetail().navigationBarBackButtonHidden(true)
                         }
                     }
             }

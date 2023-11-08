@@ -38,16 +38,7 @@ struct ProfilePage: View {
 
                 switch verifyVM.status {
                 case .success:
-                    VStack {
-                        AsyncImage(url: URL(string: "https://i.postimg.cc/Mps0CZ8n/photo.png"))
-
-                        Spacer()
-
-                        ProfileWidgets()
-
-                        Spacer().frame(width: 100, height: 133)
-
-                    }.frame(maxHeight: .infinity)
+                    ProfileSuccessView()
 
                 case .loading:
                     ProgressView().controlSize(.large).scaleEffect(1.74).progressViewStyle(CircularProgressViewStyle(tint: Color.yellow))
@@ -59,7 +50,7 @@ struct ProfilePage: View {
 
             }.padding(.horizontal, 16).padding(.vertical, 12).frame(maxHeight: .infinity)
 
-        }.background(Color(AppColors.black.rawValue)).edgesIgnoringSafeArea(.bottom)
+        }.background(Color(AppColors.black.rawValue)).edgesIgnoringSafeArea(.bottom).transition(.scale)
     }
 }
 

@@ -8,11 +8,13 @@
 import Foundation
 
 // MARK: - FeedDataModel
+
 struct FeedDataModel: Codable {
     let data: DataClass
 }
 
 // MARK: - DataClass
+
 struct DataClass: Codable {
     let hasPrevious, hasNext: Bool
     let count, totalPages: Int
@@ -20,6 +22,7 @@ struct DataClass: Codable {
 }
 
 // MARK: - Content
+
 struct Content: Codable, Identifiable {
     let id, title, description, contentKey: String
     let contentType: ContentType

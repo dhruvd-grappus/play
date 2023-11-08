@@ -30,12 +30,17 @@
 		FC31BD2E2AF12D3700BA55CF /* PhoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD2D2AF12D3700BA55CF /* PhoneService.swift */; };
 		FC31BD302AF26DF400BA55CF /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */; };
 		FC31BD322AF26FE800BA55CF /* GenerateOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31BD312AF26FE800BA55CF /* GenerateOTP.swift */; };
+		FC4F6BDD2AFABB6800F29E3F /* ContentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F6BDC2AFABB6800F29E3F /* ContentDetail.swift */; };
+		FC4F6BDF2AFB437100F29E3F /* ContentTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F6BDE2AFB437100F29E3F /* ContentTitle.swift */; };
+		FC4F6BE12AFB43A700F29E3F /* ContentReadPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F6BE02AFB43A700F29E3F /* ContentReadPage.swift */; };
+		FC4F6BE42AFB449400F29E3F /* VerticalTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F6BE32AFB449400F29E3F /* VerticalTabView.swift */; };
 		FC8E898A2AF3AFE200682AC1 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E89892AF3AFE200682AC1 /* APIError.swift */; };
 		FC8E898E2AF3C58100682AC1 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E898D2AF3C58100682AC1 /* ProfilePage.swift */; };
 		FC8E89902AF3C8D800682AC1 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8E898F2AF3C8D800682AC1 /* ErrorResponse.swift */; };
 		FCA7EDE62AF4D56B00268698 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7EDE52AF4D56B00268698 /* IconButton.swift */; };
 		FCA7EDE82AF4D82D00268698 /* AssetImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7EDE72AF4D82D00268698 /* AssetImages.swift */; };
 		FCA7EDEA2AF50C4E00268698 /* ProfileWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7EDE92AF50C4E00268698 /* ProfileWidgets.swift */; };
+		FCB2490B2AFA55C700B1763A /* ProfileSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB2490A2AFA55C700B1763A /* ProfileSuccessView.swift */; };
 		FCBAA19B2AEA836B00459D97 /* LoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */; };
 		FCBAA1A52AEA879F00459D97 /* Archivo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */; };
 		FCBAA1A62AEA879F00459D97 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */; };
@@ -96,12 +101,17 @@
 		FC31BD2D2AF12D3700BA55CF /* PhoneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneService.swift; sourceTree = "<group>"; };
 		FC31BD2F2AF26DF400BA55CF /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		FC31BD312AF26FE800BA55CF /* GenerateOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateOTP.swift; sourceTree = "<group>"; };
+		FC4F6BDC2AFABB6800F29E3F /* ContentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetail.swift; sourceTree = "<group>"; };
+		FC4F6BDE2AFB437100F29E3F /* ContentTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTitle.swift; sourceTree = "<group>"; };
+		FC4F6BE02AFB43A700F29E3F /* ContentReadPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentReadPage.swift; sourceTree = "<group>"; };
+		FC4F6BE32AFB449400F29E3F /* VerticalTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTabView.swift; sourceTree = "<group>"; };
 		FC8E89892AF3AFE200682AC1 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		FC8E898D2AF3C58100682AC1 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 		FC8E898F2AF3C8D800682AC1 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
 		FCA7EDE52AF4D56B00268698 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		FCA7EDE72AF4D82D00268698 /* AssetImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetImages.swift; sourceTree = "<group>"; };
 		FCA7EDE92AF50C4E00268698 /* ProfileWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileWidgets.swift; sourceTree = "<group>"; };
+		FCB2490A2AFA55C700B1763A /* ProfileSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSuccessView.swift; sourceTree = "<group>"; };
 		FCBAA19A2AEA836B00459D97 /* LoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeader.swift; sourceTree = "<group>"; };
 		FCBAA19E2AEA879F00459D97 /* Archivo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Bold.ttf"; sourceTree = "<group>"; };
 		FCBAA19F2AEA879F00459D97 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
@@ -221,6 +231,7 @@
 		FC31BD102AF1182700BA55CF /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				FC4F6BDA2AFABA8B00F29E3F /* Content */,
 				DE4CB9B42AFA155C0000C005 /* Feed */,
 				DE82E7C82AF8D90F009D61DB /* Learning */,
 				FC8E898B2AF3C55D00682AC1 /* Profile */,
@@ -302,6 +313,32 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		FC4F6BDA2AFABA8B00F29E3F /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F6BDB2AFABB0600F29E3F /* View */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		FC4F6BDB2AFABB0600F29E3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F6BDC2AFABB6800F29E3F /* ContentDetail.swift */,
+				FC4F6BDE2AFB437100F29E3F /* ContentTitle.swift */,
+				FC4F6BE02AFB43A700F29E3F /* ContentReadPage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC4F6BE22AFB448300F29E3F /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F6BE32AFB449400F29E3F /* VerticalTabView.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		FC8E89882AF3AFC300682AC1 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +363,7 @@
 			children = (
 				FC8E898D2AF3C58100682AC1 /* ProfilePage.swift */,
 				FCA7EDE92AF50C4E00268698 /* ProfileWidgets.swift */,
+				FCB2490A2AFA55C700B1763A /* ProfileSuccessView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -368,6 +406,7 @@
 		FCE36DFF2AEA2D5F0001D980 /* play */ = {
 			isa = PBXGroup;
 			children = (
+				FC4F6BE22AFB448300F29E3F /* Modifiers */,
 				FC31BD212AF124A400BA55CF /* Services */,
 				FC31BD102AF1182700BA55CF /* Features */,
 				FC2C9D9C2AEFD67B00611155 /* Utils */,
@@ -547,6 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB2490B2AFA55C700B1763A /* ProfileSuccessView.swift in Sources */,
 				FC31BD2A2AF12B4900BA55CF /* VerifyPhoneViewModel.swift in Sources */,
 				FC31BD232AF124B500BA55CF /* NetworkManager.swift in Sources */,
 				FC8E898E2AF3C58100682AC1 /* ProfilePage.swift in Sources */,
@@ -558,7 +598,11 @@
 				DE4CB9B72AFA158F0000C005 /* FeedDataModel.swift in Sources */,
 				FCBAA1AF2AEA8CDD00459D97 /* Fonts.swift in Sources */,
 				FCE36E032AEA2D5F0001D980 /* LoginPage.swift in Sources */,
+				FC4F6BE42AFB449400F29E3F /* VerticalTabView.swift in Sources */,
+				FC4F6BE12AFB43A700F29E3F /* ContentReadPage.swift in Sources */,
+				FC4F6BDD2AFABB6800F29E3F /* ContentDetail.swift in Sources */,
 				DE4CB9BB2AFA15CF0000C005 /* FeedView.swift in Sources */,
+				FC4F6BDF2AFB437100F29E3F /* ContentTitle.swift in Sources */,
 				FC31BD202AF122F000BA55CF /* VerifyResponse.swift in Sources */,
 				FCA7EDE82AF4D82D00268698 /* AssetImages.swift in Sources */,
 				FC8E898A2AF3AFE200682AC1 /* APIError.swift in Sources */,
